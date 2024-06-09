@@ -12,6 +12,8 @@ def abjad_func(word:str) -> int:
         n += numbers_dict[char]
     return n
 
+# this is ghanbari branch
+
 # if you do not want to use "base.py" turn this part off:
 # while True:
 #     word = input('Enter a word: ')
