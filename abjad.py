@@ -12,9 +12,9 @@ def abjad_func(word:str) -> int:
         n += numbers_dict[char]
     return n
 
-# if you want to use "base.py" turn this part off:
-while True:
-    word = input('Enter a word: ')
-    if word == 'stop':
-        break
-    print(abjad_func(word))
+# if you do not want to use "base.py" turn this part off:
+# while True:
+#     word = input('Enter a word: ')
+#     if word == 'stop':
+#         break
+#     print(abjad_func(word))
