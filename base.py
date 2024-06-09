@@ -19,6 +19,8 @@ def main(infilename, outfilename):
         for k in sorted(res_dict.keys()):
             outfile.write(f'{k} : {res_dict[k]} \n')
 
+
+
 main('words.txt', 'natige.txt')
 
 
